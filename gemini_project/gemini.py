@@ -13,6 +13,8 @@ import google.generativeai as genai
 import os
 from dotenv import load_dotenv
 import requests
+import warnings; warnings.filterwarnings("ignore")
+
 
 # Load environment variables (for Gemini API key)
 load_dotenv()
