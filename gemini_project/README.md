@@ -34,16 +34,16 @@ GOOGLE_CX_ID=your_google_cx_id_here
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-
- Install dependencies:
+\
+** Install dependencies:
 
 pip install -r requirements.txt
 
-## Run the program:
+** Run the program:
 
 python gemini.py
 
-## Example Output:
+** Example Output:
 
 Enter an old/fragmented digital text: smh at the top 8 drama. ppl need to chill. g2g ttyl
 
@@ -55,7 +55,7 @@ People need to calm down. I must go now, talk later.
 1. https://www.dictionary.com/e/slang/smh/
 2. https://en.wikipedia.org/wiki/Myspace
 
-## Folder Structure:
+** Folder Structure:
 gemini_project/
 ├── gemini.py
 ├── list_models.py
