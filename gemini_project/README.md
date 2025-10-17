@@ -29,21 +29,21 @@ GEMINI_API_KEY=your_gemini_api_key_here
 GOOGLE_API_KEY=your_google_api_key_here
 GOOGLE_CX_ID=your_google_cx_id_here
 
-2. **Create and activate a virtual environment**
+ **Create and activate a virtual environment**
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
 
-3. Install dependencies:
+ Install dependencies:
 
 pip install -r requirements.txt
 
-4.Run the program:
+## Run the program:
 
 python gemini.py
 
-5.Example Output:
+## Example Output:
 
 Enter an old/fragmented digital text: smh at the top 8 drama. ppl need to chill. g2g ttyl
 
@@ -55,7 +55,7 @@ People need to calm down. I must go now, talk later.
 1. https://www.dictionary.com/e/slang/smh/
 2. https://en.wikipedia.org/wiki/Myspace
 
-Folder Structure:
+## Folder Structure:
 gemini_project/
 ├── gemini.py
 ├── list_models.py
@@ -65,7 +65,7 @@ gemini_project/
 ├── .venv/
 └── README.md
 
- Technologies Used:
+## Technologies Used:
 - Python 3.13  
 - Google Gemini API (via `google-generativeai`)  
 - Google Custom Search API  
