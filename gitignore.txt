@@ -1,0 +1,9 @@
+# 🔒 secrets
+.env
+
+# 🧩 virtual env & caches
+.venv/
+__pycache__/
+
+# 🍏 macOS junk
+.DS_Store
